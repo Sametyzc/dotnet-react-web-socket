@@ -1,0 +1,60 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": "airbnb",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "max-len": 0,
+        "arrow-parens": [
+            "error",
+            "as-needed"
+        ],
+        "no-confusing-arrow": [
+            "error",
+            {
+                "allowParens": true
+            }
+        ],
+        "object-curly-newline": [
+            "error",
+            {
+                "consistent": true
+            }
+        ],
+        "implicit-arrow-linebreak": 0,
+        "operator-linebreak": 0,
+        "linebreak-style": 0,
+        "import/no-extraneous-dependencies": 0,
+        "import/prefer-default-export": 0,
+        "react/forbid-prop-types": 0,
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [
+                    ".js",
+                    ".jsx"
+                ]
+            }
+        ],
+        "react/jsx-props-no-spreading": 0,
+        "react/jsx-curly-newline": 0,
+        "react/static-property-placement": 0,
+        "react/state-in-constructor": 0,
+        "react/no-array-index-key": 0,
+        "jsx-a11y/label-has-associated-control": 0,
+        "jsx-a11y/control-has-associated-label": 0,
+        "react/prop-types": 0,
+        "import/no-cycle": "off"
+    }
+}
