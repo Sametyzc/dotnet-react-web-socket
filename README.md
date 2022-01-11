@@ -1,6 +1,6 @@
 
 ## Websocket Example
-This is an real time app example which is using web socket, dot net core and react.
+This is a real time app example which is using web socket, dot net core and react.
 
 **Project Case**
 
